@@ -1,27 +1,28 @@
 # EconStudio
---
+
 An interactive business economics and financial modeling platform designed to analyze product-level unit economics, profitability, and business scenarios.
 
-#Overview
--- 
+## Overview
+
 EconStudio is being developed as a platform for modeling the financial performance of products and businesses. It combines an interactive frontend with a Python-based backend foundation.
 
-Current Features
-Editable product selling price and cost assumptions
-Automatic variable cost calculations
-Contribution profit analysis
-Contribution margin calculations
-Product-level economics interface
-Technology Stack
+## Current Features
 
-Frontend
+- Editable product selling price and cost assumptions
+- Automatic variable cost calculations
+- Contribution profit analysis
+- Contribution margin calculations
+- Product-level economics interface
+- Technology Stack
 
-React
-TypeScript
-Vite
-CSS
+## Frontend
 
-Backend
+- React
+- TypeScript
+- Vite
+- CSS
+
+## Backend
 
 Python
 FastAPI
@@ -41,10 +42,10 @@ econstudio/
 ├── requirements.txt
 └── README.md
 
-# Project Vision
+## Project Vision
 
 The long-term goal is to develop EconStudio into a comprehensive business economics environment supporting product profitability analysis, cost modeling, scenario simulations, and financial decision-making.
 
-# Development Status
+## Development Status
 
 Early development — actively building the core modeling engine and interactive interface.
