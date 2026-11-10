@@ -1,51 +1,41 @@
 # EconStudio
 
-An interactive business economics and financial modeling platform designed to analyze product-level unit economics, profitability, and business scenarios.
+## 1. Overview
 
-## Overview
+EconStudio is an interactive business economics and financial modeling platform designed to analyze product-level unit economics, profitability, and business scenarios.
 
-EconStudio is being developed as a platform for modeling the financial performance of products and businesses. It combines an interactive frontend with a Python-based backend foundation.
+The platform is being developed to help users understand the financial performance of individual products and businesses by adjusting pricing, cost assumptions, and other key financial variables. By combining an interactive frontend with a Python-based backend, EconStudio aims to provide a structured environment for analyzing profitability and supporting data-driven business decisions.
 
-## Current Features
+## 2. Features
 
-- Editable product selling price and cost assumptions
-- Automatic variable cost calculations
-- Contribution profit analysis
-- Contribution margin calculations
-- Product-level economics interface
-- Technology Stack
+- **Product-Level Economics**: Analyze the financial performance and profitability of individual products.
+- **Editable Selling Price**: Adjust product selling prices to evaluate their impact on profitability.
+- **Cost Assumptions**: Input and modify product cost assumptions.
+- **Automatic Variable Cost Calculations**: Automatically calculate variable costs based on user-defined assumptions.
+- **Contribution Profit Analysis**: Calculate contribution profit to understand how much revenue remains after variable costs.
+- **Contribution Margin Calculations**: Evaluate contribution margins to assess product-level profitability.
+- **Interactive Interface**: Modify financial assumptions through an interactive frontend.
+- **Financial Modeling Foundation**: Establish a framework for future scenario analysis and business financial modeling.
 
-## Frontend
+## 3. Requirements/Dependencies
 
-- React
-- TypeScript
-- Vite
-- CSS
+### Frontend
 
-## Backend
+- **React**: For building the interactive user interface.
+- **TypeScript**: For type-safe frontend development.
+- **Vite**: For frontend development and build tooling.
+- **CSS**: For application styling and layout.
 
-Python
-FastAPI
-Pandas
-NumPy
-Project Structure
-text
-econstudio/
-├── frontend/
-│   └── src/
-├── src/
-│   ├── data_loader.py
-│   ├── data_validation.py
-│   ├── data_integration.py
-│   └── economics.py
-├── main.py
-├── requirements.txt
-└── README.md
+### Backend
 
-## Project Vision
+- **Python**: For backend development and financial calculations.
+- **FastAPI**: For building backend APIs and connecting the frontend to the modeling engine.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical computations and financial modeling.
 
-The long-term goal is to develop EconStudio into a comprehensive business economics environment supporting product profitability analysis, cost modeling, scenario simulations, and financial decision-making.
+### Installation
 
-## Development Status
+Backend dependencies can be installed using `pip`:
 
-Early development — actively building the core modeling engine and interactive interface.
+```bash
+pip install -r requirements.txt
